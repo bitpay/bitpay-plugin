@@ -1,0 +1,67 @@
+v1.9
+-api_connection (API Access Key)
+-direct_checkout OR redirect_checkout
+-order_progression
+-settings/risk_speed
+
+v1.10
+-api_connection (API Access Key)
+-direct_checkout OR redirect_checkout
+-order_progression
+-settings/risk_speed
+-settings/status_complete
+-settings/status_confirmed
+-settings/status_paid
+
+v1.11
+-api_connection (API Access Key)
+-direct_checkout OR redirect_checkout
+-order_progression
+-settings/risk_speed
+-settings/status_complete
+-settings/status_confirmed
+-settings/status_paid
+-settings/url_notification
+-settings/url_return
+
+v1.12
+-api_connection (API Access Key)
+-direct_checkout OR redirect_checkout
+-order_progression
+-settings/debug_logging
+-settings/risk_speed
+-settings/status_complete
+-settings/status_confirmed
+-settings/status_paid
+-settings/url_notification
+-settings/url_return
+
+v2.2
+-api_connection (API Token - Pairing Code)
+-direct_checkout OR redirect_checkout
+-order_progression
+-requirements_check
+-settings/debug_logging
+-settings/risk_speed
+-settings/status_complete
+-settings/status_confirmed
+-settings/status_paid
+-settings/url_notification
+-settings/url_return
+
+v2.3
+-api_connection (API Token - Connect to BitPay)
+-direct_checkout OR redirect_checkout
+-order_progression
+-requirements_check
+-settings/buyer_info
+-settings/debug_logging
+-settings/buyer_info
+-settings/risk_speed
+-settings/status_complete
+-settings/status_confirmed
+-settings/status_paid
+-settings/url_notification
+-settings/url_return
+-support/information
+-support/send_request
