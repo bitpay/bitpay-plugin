@@ -1,23 +1,24 @@
-Feature: Send Buyer Information Setting for Invoices
-  As a merchant of BitPay
-  I might want to include buyer information on Invoices
-  So that I have data redundancy for order payments
+Feature: Creating support requests
+  As a customer of bitpay
+  I want to easily create support requests for bitpay plugins
+  So that I can get help with my issue
 
-Background: Store is connected to BitPay
-  Given store is connected to BitPay
+  Scenario: I have chosen to send logs with my support request
+    Given I am on the admin page for bitpay
+    When I make a support request and include logs
+    Then it will have logs
 
-Scenario: Send Buyer Information
-  Given I am on the plugin's settings page
-  When I enable "Send Buyer Information"
-  And save settings
-  And I create a new purchase
-  And I choose BitPay as the payment option
-  Then the BitPay invoice should include buyer information
+  Scenario: I have chosen not to send logs
+    Given I am on the admin page
+    When I make a support request and do not include logs
+    Then it will not have logs
 
-Scenario: Don't Send Buyer Information
-  Given I am on the plugin's settings page
-  When I disable "Send Buyer Information"
-  And save settings
-  And I create a new purchase
-  And I choose BitPay as the payment option
-  Then the BitPay invoice should not include buyer information
+  Scenario: I have chosen to send server information with my support request
+    Given I am on the admin page for bitpay
+    When I make a support request and include server information
+    Then it will have server information
+
+  Scenario: I have chosen not to send server information
+    Given I am on the admin page
+    When I make a support request and do not include server information
+    Then it will not have server information

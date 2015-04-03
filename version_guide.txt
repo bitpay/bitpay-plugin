@@ -30,9 +30,7 @@ v1.12
 -order_progression
 -settings/debug_logging
 -settings/risk_speed
--settings/status_complete
--settings/status_confirmed
--settings/status_paid
+-settings/order_status
 -settings/url_notification
 -settings/url_return
 
