@@ -5,7 +5,7 @@ Feature: API Connection
 
   Scenario: Merchant connects using an API Token
     Given I'm a BitPay merchant
-    And I have generated a Pairing Code
-    When I enter the Pairing Code into the plugin admin
-    Then I should receive a token
+    When I click on Connect to BitPay
+    And I approve the API Token
+    Then I should be sent back to the plugin admin
     And the connection should be indicated
