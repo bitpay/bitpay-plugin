@@ -4,6 +4,10 @@ All Notable changes to `bitpay-plugin` will be documented in this file
 
 ## [Unreleased][unreleased]
 
+## [1.12.0] - 2015-04-03
+### Added
+- Debug logging setting, for logging additonal levels of information (info, debug, and trace)
+
 ## [1.11.0] - 2015-04-03
 ### Added
 - Notification URL setting, for creating hooks and proxies for IPNs
@@ -21,6 +25,7 @@ All Notable changes to `bitpay-plugin` will be documented in this file
 - Automatic order progression as BitPay invoice goes through confirmation stages
 - Risk/Speed setting for BitPay invoices
 
-[unreleased]: https://github.com/bitpay/bitpay-plugin/compare/v1.11.0..HEAD
+[unreleased]: https://github.com/bitpay/bitpay-plugin/compare/v1.12.0..HEAD
+[1.12.0]: https://github.com/bitpay/bitpay-plugin/compare/v1.11.0...v1.12.0
 [1.11.0]: https://github.com/bitpay/bitpay-plugin/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/bitpay/bitpay-plugin/compare/v1.9.0...v1.10.0
