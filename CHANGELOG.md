@@ -4,6 +4,11 @@ All Notable changes to `bitpay-plugin` will be documented in this file
 
 ## [Unreleased][unreleased]
 
+## [1.11.0] - 2015-04-03
+### Added
+- Notification URL setting, for creating hooks and proxies for IPNs
+- Return URL setting, for custom landing locations after paying invoices
+
 ## [1.10.0] - 2015-04-03
 ### Added
 - Order status settings for paid, confirmed, and complete invoices
@@ -16,5 +21,6 @@ All Notable changes to `bitpay-plugin` will be documented in this file
 - Automatic order progression as BitPay invoice goes through confirmation stages
 - Risk/Speed setting for BitPay invoices
 
-[unreleased]: https://github.com/bitpay/bitpay-plugin/compare/v1.10.0..HEAD
+[unreleased]: https://github.com/bitpay/bitpay-plugin/compare/v1.11.0..HEAD
+[1.11.0]: https://github.com/bitpay/bitpay-plugin/compare/v1.10.0...v1.11.0
 [1.10.0]: https://github.com/bitpay/bitpay-plugin/compare/v1.9.0...v1.10.0
